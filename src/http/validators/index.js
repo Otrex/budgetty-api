@@ -28,5 +28,6 @@ class PasswordResetValidator extends GenericValidator{
 
 
 module.exports = {
-    LoginValidator
+    LoginValidator,
+    RegistrationValidator
 }

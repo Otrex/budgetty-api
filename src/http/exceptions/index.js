@@ -26,5 +26,7 @@ class DataBaseError extends AppError {
 }
 
 module.exports = {
-    ValidationError
+    ValidationError,
+    AuthenticationError,
+    AuthorizationError
 }
