@@ -1,6 +1,10 @@
 module.exports = {
     MESSAGE : {
-        ERROR : {},
+        ERROR : {
+            VALIDATION : {
+                NO_SCHEMA : "no schema available for validation"
+            }
+        },
         SUCCESS : {}
     }
 }

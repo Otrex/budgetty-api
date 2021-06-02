@@ -12,7 +12,7 @@ const app = express()
 app.use(cors)
 
 /* ROUTES */
-app.use('/', require('./routes/auth'))
+app.use('/auth', require('./routes/auth'))
 
 /* EXCEPTION HANDLERS */
 app.use(errorHandler)
