@@ -2,7 +2,8 @@ module.exports = {
     app : {
         port : process.env.PORT,
         secret : process.env.SECRET,
-        name : process.env.NAME
+        name : process.env.NAME,
+        env : process.env.ENV
     },
     db : {
         user : process.env.DB_USER,
